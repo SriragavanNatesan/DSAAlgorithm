@@ -1,7 +1,7 @@
 package dsa.pattern.binarysearch;
 
 public class BinarySearch {
-    public static int binarySearch(int arr[], int target){
+    public static int binarySearch(int[] arr, int target){
         System.out.println("=====binarySearch====");
         int start = 0;
         int end = arr.length - 1;
@@ -19,7 +19,7 @@ public class BinarySearch {
         return -1;
     }
 
-    public static int recursiveBinarySearch(int arr[], int target,int start,int end){
+    public static int recursiveBinarySearch(int[] arr, int target, int start, int end){
 
 //        System.out.println("=====recursiveBinarySearch====");
         if(start <= end){
@@ -36,8 +36,8 @@ public class BinarySearch {
         return -1;
     }
 
-    public static int firstOccurrence(int arr[], int target){
-        System.out.println("=====firstOccurence====");
+    public static int firstOccurrence(int[] arr, int target){
+        System.out.println("=====firstsOccurrence====");
         int start = 0;
         int end = arr.length - 1;
         int result = -1;
@@ -56,8 +56,8 @@ public class BinarySearch {
         return result;
     }
 
-    public static int lastOccurrence(int arr[], int target){
-        System.out.println("=====lastOccurence====");
+    public static int lastOccurrence(int[] arr, int target){
+        System.out.println("=====lastOccurrence====");
         int start = 0;
         int end = arr.length - 1;
         int result = -1;
